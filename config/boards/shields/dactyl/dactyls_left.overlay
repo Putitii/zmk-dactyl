@@ -1,4 +1,4 @@
-#include "dactyl.dtsi"
+#include "dactyls.dtsi"
 
 &default_kscan {
      col-gpios

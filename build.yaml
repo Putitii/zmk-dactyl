@@ -14,10 +14,10 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: dactyl_left
+    shield: dactyls_left
 
   - board: nice_nano_v2
-    shield: dactyl_right
+    shield: dactyls_right
 
   - board: nice_nano_v2
     shield: settings_reset

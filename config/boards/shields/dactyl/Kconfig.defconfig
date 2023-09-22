@@ -1,14 +1,14 @@
-if SHIELD_DACTYL_LEFT
+if SHIELD_DACTYLS_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "PutitiDactyl"
+    default "Dactyls"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
+if SHIELD_DACTYLS_LEFT || SHIELD_DACTYLS_RIGHT
 
 config ZMK_SPLIT
 	default y
