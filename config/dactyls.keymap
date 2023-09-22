@@ -38,7 +38,7 @@
 
 		qwert_layer {
 			bindings = <
-                   &kp Q   &bt BT_CLR   &bt BT_NXT      &kp R    &kp T           &kp Y     &kp U  &bt BT_CLR   &bt BT_NXT      &kp P
+                   &kp Q   &bt BT_CLR   &kp E &kp R    &kp T           &kp Y     &kp U   &bt BT_CLR   &kp O      &kp P
                    &kp A   &kp S   &kp D      &kp F    &kp G           &kp H     &kp J   &kp K        &kp L      &kp SEMI
                    &kp Z   &kp X   &kp C      &kp V    &kp B           &kp N     &kp M   &kp COMMA    &kp DOT    &kp FSLH
 		                   &mo 4   &kp SPACE  &mt LSHFT ENTER          &kp BSPC  &mo 1   &mo 2
