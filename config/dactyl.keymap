@@ -56,16 +56,6 @@
                         >; 
                 };
 
-		 &kp SPACE  &mt LSHFT ENTER        &kp BSPC        &mo 1  {
-			bindings = <
-                &kp N1     &kp N2    &kp N3    &kp N4     &kp N5                 &kp N6          &kp N7    &kp N8     &kp N9   &kp N0
-                &kp EXCL   &kp AT    &kp HASH  &kp DLLR   &kp PRCNT              &kp GRAVE       &kp LGUI  &sk LGUI   &trans   &trans  
-                &kp PIPE   &kp BSLH  &kp AMPS  &kp STAR   &kp CARET              &kp LS(LA(UP))  &trans    &kp COMMA  &kp DOT  &kp FSLH  
-                                     &trans    &kp SPACE  &kp ENTER              &trans          &trans    &trans
-                                               &kp SPACE  &mt LSHFT ENTER        &kp BSPC        &mo 1 
-                         >;
-		};
-
 		layer_3 {
 			bindings = <
                 &kp N1    &kp N2   &kp N3  &kp N4     &kp N5               &kp N6    &kp N7   &kp N8    &kp N9   &kp N0
@@ -76,7 +66,7 @@
                         >;
                 };
 
-        layer_4 {
+                layer_4 {
 			bindings = <
                 &bt BT_CLR  &sk LALT   &sk LCTRL  &sk LSHFT   &bt BT_NXT           &trans    &trans    &trans      &trans      &bootloader  
                 &kp LG(A)   &kp LG(S)  &kp LG(D)  &kp LG(F)   &kp LG(G)            &trans    &trans    &trans      &trans      &sys_reset      
@@ -86,4 +76,3 @@
                         >;
                 };
         };
-};
