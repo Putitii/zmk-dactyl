@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: manna-harbour
+    - url-base: https://github.com/manna-harbour
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      # remote: zmkfirmware
+      # revision: main
+      remote: okke-formsma
+      revision: zephyr-3.0
       import: app/west.yml
+      
   self:
     path: config
