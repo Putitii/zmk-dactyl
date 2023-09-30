@@ -8,7 +8,7 @@ manifest:
     - name: zmk
       # remote: zmkfirmware
       # revision: main
-      remote: okke-formsma
+      remote: manna-harbour
       revision: zephyr-3.0
       import: app/west.yml
       
