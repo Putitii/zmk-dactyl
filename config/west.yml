@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - #name: manna-harbour
+    #- name: manna-harbour
       #url-base: https://github.com/manna-harbour
   projects:
     - name: zmk
