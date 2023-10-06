@@ -8,7 +8,7 @@
 };
 
 / {
-        behaviors {
+       /* behaviors {
                 td0: tap_dance_0 {
                         compatible = "zmk,behavior-tap-dance";
                         label = "TAP_DANCE_0";
@@ -24,7 +24,7 @@
                         tapping-term-ms = <200>;
                         bindings = <&mo>, <&tog>;
                 };        
-        };
+        };*/
 
 
 	keymap {
@@ -39,7 +39,7 @@
 		                            &kp LCTRL  &kp LALT           &kp LSHFT &mo 3 
 			>;
 		};
-
+/*
 		l1 {
 			bindings = <
                 &kp ESC  &kp LG(LEFT)  &kp UP    &kp LG(RIGHT) &kp PG_UP               &kp EQUAL  &kp LBRC  &kp RBRC  &trans    &trans    
@@ -69,5 +69,6 @@
 		                                &kp LCTRL  &kp LALT             &kp LSHFT  &mo 3 
                         >;
                 };
+                */
         };
 };
