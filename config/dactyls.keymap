@@ -39,7 +39,7 @@
 		                            &kp LCTRL  &kp LALT           &kp LSHFT &mo 3 
 			>;
 		};
-/*
+
 		l1 {
 			bindings = <
                 &kp ESC  &kp LG(LEFT)  &kp UP    &kp LG(RIGHT) &kp PG_UP               &kp EQUAL  &kp LBRC  &kp RBRC  &trans    &trans    
@@ -69,6 +69,6 @@
 		                                &kp LCTRL  &kp LALT             &kp LSHFT  &mo 3 
                         >;
                 };
-                */
+                
         };
 };
